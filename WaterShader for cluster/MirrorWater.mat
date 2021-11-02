@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MirrorWater
-  m_Shader: {fileID: 4800000, guid: 51d39467e24f9964e96c49fed35a5e06, type: 3}
+  m_Shader: {fileID: 4800000, guid: 51c3c7b49527a5d40b510cb3e7572a44, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HighLightMaskTexture:
-        m_Texture: {fileID: 2800000, guid: 4008ea4a46d577142a5c1545130e21e4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LeftEyeTexture:
@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaveNormalMap:
-        m_Texture: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 0.9}
         m_Offset: {x: 0, y: 0}
     - _node_2018:
@@ -115,6 +115,7 @@ Material:
     - _HighLightEmission: 4
     - _HighLightIntensity: 0
     - _Metallic: 0
+    - _MirrorReflection_Intensity: 0.5
     - _Mode: 0
     - _NormalMapIntensity: 0.8
     - _OcclusionStrength: 1
@@ -159,6 +160,7 @@ Material:
     - _DeepColor: {r: 0.25035602, g: 0.531269, b: 0.5471698, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighLightColor: {r: 7.999999, g: 6.534031, b: 5.1937165, a: 1}
+    - _MirrorReflectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _Specular: {r: 1, g: 1, b: 1, a: 1}
     - _node_2032: {r: 1, g: 1, b: 1, a: 1}
     - _node_2813: {r: 0.5, g: 0.5, b: 1, a: 1}

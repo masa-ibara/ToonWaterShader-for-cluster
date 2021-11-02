@@ -1,8 +1,23 @@
 fileFormatVersion: 2
-guid: 51d39467e24f9964e96c49fed35a5e06
+guid: a7911ad48dbef8c4bbe149b0812f8e52
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _WaveNormalMap: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877, type: 3}
+  - _HighLightMaskTexture: {fileID: 2800000, guid: a0d8228909219b244ad9988cfd5552e8,
+      type: 3}
+  - _node_1678_copy_copy_copy: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877,
+      type: 3}
+  - _node_1678_copy_copy_copy_copy: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877,
+      type: 3}
+  - _node_1678_copy_copy_copy_copy: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877,
+      type: 3}
+  - _node_1678_copy_copy_copy_copy: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877,
+      type: 3}
+  - _node_1678_copy_copy_copy_copy_copy: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877,
+      type: 3}
+  - _node_1678_copy_copy_copy_copy_copy: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877,
+      type: 3}
   nonModifiableTextures: []
   userData: 
   assetBundleName: 
