@@ -52,7 +52,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _HighLightMaskTexture:
-        m_Texture: {fileID: 2800000, guid: a0d8228909219b244ad9988cfd5552e8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4008ea4a46d577142a5c1545130e21e4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -72,60 +72,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _WaveNormalMap:
-        m_Texture: {fileID: 2800000, guid: 5dc6eb4d3b3aa294dbe0703f40e8e359, type: 3}
+        m_Texture: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877, type: 3}
         m_Scale: {x: 1, y: 0.9}
-        m_Offset: {x: 0, y: 0}
-    - _node_1007:
-        m_Texture: {fileID: 2800000, guid: d2de0055605521644b07a87f5ebe7aa4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_1007_copy:
-        m_Texture: {fileID: 2800000, guid: d2de0055605521644b07a87f5ebe7aa4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_1a022:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_2310:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_4724:
-        m_Texture: {fileID: 2800000, guid: d5189c7814dae8e45b7fd5c57d330602, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_5037:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_527:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_7381:
-        m_Texture: {fileID: 2800000, guid: 401d8a9f602310c4b81f0b959d581e49, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_7544:
-        m_Texture: {fileID: 2800000, guid: d2de0055605521644b07a87f5ebe7aa4, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_8314:
-        m_Texture: {fileID: 2800000, guid: 5dc6eb4d3b3aa294dbe0703f40e8e359, type: 3}
-        m_Scale: {x: 10, y: 9}
-        m_Offset: {x: 0, y: 0}
-    - _node_9428:
-        m_Texture: {fileID: 2800000, guid: a0d8228909219b244ad9988cfd5552e8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_973:
-        m_Texture: {fileID: 2800000, guid: d5189c7814dae8e45b7fd5c57d330602, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _node_9783:
-        m_Texture: {fileID: 2800000, guid: c63daaada8002cf4f8d1459e7521f04a, type: 3}
-        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
@@ -141,22 +89,25 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HighLightEmission: 4
-    - _HighLightIntensity: 0.18
+    - _HighLightIntensity: 0
     - _Metallic: 0
     - _Mode: 0
-    - _NormalMapIntensity: 0.2
+    - _NormalMapIntensity: 0.271
     - _OcclusionStrength: 1
-    - _Opacity: 0.5
+    - _Opacity: 0.415
     - _Parallax: 0.02
+    - _ReflectionProbeIntensity: 0
     - _RefractionNoiseIntensity: 10
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.8
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Transmission: 0.7
-    - _UVScale: 5
+    - _UVAngle: 0
+    - _UVScale: 10
     - _UVSec: 0
     - _UVscale: 2
+    - _UsevertexUV: 0
     - _WaveSpeed: 1
     - _WhiteWavesIntensity: 0.05
     - _WhiteWavesnoise: 0.05
@@ -182,7 +133,8 @@ Material:
     - _DeepColor: {r: 0.25035602, g: 0.531269, b: 0.5471698, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HighLightColor: {r: 16, g: 12.988235, b: 10.3529415, a: 1}
-    - _Specular: {r: 0.40032038, g: 0.47646514, b: 0.49056602, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
     - _node_2032: {r: 1, g: 1, b: 1, a: 1}
+    - _node_2813: {r: 0.5, g: 0.5, b: 1, a: 1}
     - _node_7515: {r: 0.3726415, g: 0.7637333, b: 1, a: 1}
     - _node_8338: {r: 0, g: 0.3169011, b: 0.3396226, a: 1}
