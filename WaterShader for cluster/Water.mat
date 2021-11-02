@@ -96,7 +96,7 @@ Material:
     - _HighLightIntensity: 0
     - _Metallic: 0
     - _Mode: 0
-    - _NormalMapIntensity: 0.271
+    - _NormalMapIntensity: 0.8
     - _OcclusionStrength: 1
     - _Opacity: 0.415
     - _Parallax: 0.02

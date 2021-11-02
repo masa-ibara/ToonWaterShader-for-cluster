@@ -163,10 +163,8 @@ Shader "forCluster/New_ToonWater" {
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
                 float _RefractionNoiseIntensity_var = UNITY_ACCESS_INSTANCED_PROP( Props, _RefractionNoiseIntensity );
-                float node_9948 = 2.0;
                 float2 node_6870 = float2(node_119.r,_node_1007_copy.g);
-                float2 node_5179 = Function_node_5179( i.posWorld.rgb );
-                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (((_RefractionNoiseIntensity_var/node_9948)+(node_6870*_RefractionNoiseIntensity_var))*(node_5179*0.01));
+                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (((_RefractionNoiseIntensity_var/2.0)+(node_6870*_RefractionNoiseIntensity_var))*(Function_node_5179( i.posWorld.rgb )*0.01));
                 float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
                 float3 lightColor = _LightColor0.rgb;
@@ -420,10 +418,8 @@ Shader "forCluster/New_ToonWater" {
                 float3 normalLocal = node_1461;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float _RefractionNoiseIntensity_var = UNITY_ACCESS_INSTANCED_PROP( Props, _RefractionNoiseIntensity );
-                float node_9948 = 2.0;
                 float2 node_6870 = float2(node_119.r,_node_1007_copy.g);
-                float2 node_5179 = Function_node_5179( i.posWorld.rgb );
-                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (((_RefractionNoiseIntensity_var/node_9948)+(node_6870*_RefractionNoiseIntensity_var))*(node_5179*0.01));
+                float2 sceneUVs = (i.projPos.xy / i.projPos.w) + (((_RefractionNoiseIntensity_var/2.0)+(node_6870*_RefractionNoiseIntensity_var))*(Function_node_5179( i.posWorld.rgb )*0.01));
                 float4 sceneColor = tex2D(_GrabTexture, sceneUVs);
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
                 float3 lightColor = _LightColor0.rgb;
