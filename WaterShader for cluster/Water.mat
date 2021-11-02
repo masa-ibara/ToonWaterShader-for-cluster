@@ -75,6 +75,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 984fae15b57e45e42be7d0dbd1261877, type: 3}
         m_Scale: {x: 1, y: 0.9}
         m_Offset: {x: 0, y: 0}
+    - _node_9262:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -96,7 +100,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity: 0.415
     - _Parallax: 0.02
-    - _ReflectionProbeIntensity: 0
+    - _ReflectionProbeIntensity: 1
     - _RefractionNoiseIntensity: 10
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.8
