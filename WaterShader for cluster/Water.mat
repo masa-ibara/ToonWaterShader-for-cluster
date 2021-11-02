@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Water
-  m_Shader: {fileID: 4800000, guid: e09ef83aa4e3b6945a21dfa1df037c8b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 2de494c383d61b048b2c4d713ee3fb69, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -127,11 +127,11 @@ Material:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DepthInfluence: 1
-    - _DepthIntensity: 0.4
+    - _DepthIntensity: 0
     - _DepthOpacity: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Fresnel: 0.8
+    - _Fresnel: 1
     - _Gloss: 0.9
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -142,7 +142,7 @@ Material:
     - _Mode: 0
     - _NormalMapIntensity: 0.401
     - _OcclusionStrength: 1
-    - _Opacity: 0.2
+    - _Opacity: 0.5
     - _Parallax: 0.02
     - _RefractionNoiseIntensity: 10
     - _SmoothnessTextureChannel: 0
@@ -173,6 +173,7 @@ Material:
     - _node_764: 0.123
     - _node_8545: 0.71
     m_Colors:
+    - _BaseColor: {r: 0.46698105, g: 0.8001179, b: 1, a: 1}
     - _Color: {r: 0.495283, g: 0.9850208, b: 1, a: 1}
     - _DeepColor: {r: 0.25035602, g: 0.531269, b: 0.5471698, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 2de494c383d61b048b2c4d713ee3fb69
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _WaveNormalMap: {fileID: 2800000, guid: 5dc6eb4d3b3aa294dbe0703f40e8e359, type: 3}
+  - _HighLightMaskTexture: {fileID: 2800000, guid: a0d8228909219b244ad9988cfd5552e8,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
