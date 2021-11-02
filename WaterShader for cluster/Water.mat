@@ -140,7 +140,7 @@ Material:
     - _HighLightIntensity: 0.18
     - _Metallic: 0
     - _Mode: 0
-    - _NormalMapIntensity: 1
+    - _NormalMapIntensity: 0.401
     - _OcclusionStrength: 1
     - _Opacity: 0.2
     - _Parallax: 0.02
